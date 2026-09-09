@@ -1,2 +1,2 @@
 # ransomware-detection-response-system
-A cybersecurity project for detecting suspicious ransomware activity and supporting incident response.
+It is used for detecting suspicious ransomware activity and supporting incident response.
