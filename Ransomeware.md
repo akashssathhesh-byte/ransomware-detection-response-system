@@ -10,7 +10,7 @@ Ransomware Detection & Response System is designed to monitor suspicious file ac
 4. Alert System
 - Generates an alert when activity crosses a defined threshold.
 5. Automated Response
-Depending on the design, the system can:
+  Depending on the design, the system can:
 - Isolate the affected endpoint from the network
 - Stop a suspicious process
 - Block further suspicious activity
