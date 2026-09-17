@@ -1,20 +1,21 @@
-monitoring:
-  enabled: true
-  directories:
-    - "./test_folder"
+monitor:
+  paths:
+    - "./data"
+  recursive: true
 
 detection:
-  file_modification_threshold: 10
-  suspicious_extensions:
-    - ".locked"
-    - ".encrypted"
-    - ".crypto"
+  window_seconds: 10
+  modification_threshold: 20
+  rename_threshold: 10
+  suspicious_extension_threshold: 5
+  entropy_threshold: 7.2
+  risk_threshold: 60
 
 response:
-  generate_alert: true
-  quarantine_files: true
-  create_report: true
+  enabled: true
+  quarantine_enabled: false
+  quarantine_dir: "./quarantine"
 
 logging:
-  level: "INFO"
-  file: "logs/system.log"
+  alert_file: "./logs/alerts.jsonl"
+  application_log: "./logs/application.log"
