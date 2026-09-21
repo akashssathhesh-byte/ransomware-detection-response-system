@@ -1,5 +1,2 @@
-watchdog
-PyYAML
-psutil
-cryptography
-gunicorn
+watchdog>=4.0,<7
+PyYAML>=6.0,<7
