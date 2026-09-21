@@ -1,2 +1,5 @@
-watchdog>=4.0,<7
-PyYAML>=6.0,<7
+watchdog
+PyYAML
+psutil
+cryptography
+pytest
