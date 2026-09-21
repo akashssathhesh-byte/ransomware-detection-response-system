@@ -2,4 +2,4 @@ watchdog
 PyYAML
 psutil
 cryptography
-pytest
+gunicorn
