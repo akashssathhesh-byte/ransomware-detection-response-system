@@ -1,0 +1,7 @@
+Flask
+gunicorn
+PyYAML
+watchdog
+psutil
+cryptography
+requests
