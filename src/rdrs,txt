@@ -1,0 +1,17 @@
+RDRS/
+├── app.py
+├── requirements.txt
+├── config.yaml
+├── templates/
+│   └── index.html
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── dashboard.js
+├── detector/
+│   ├── file_monitor.py
+│   └── ransomware_detector.py
+├── response/
+│   └── incident_response.py
+└── logs/
